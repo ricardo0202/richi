@@ -1,0 +1,9 @@
+ emp_no |     full_name     | gender | hire_date  
+--------+-------------------+--------+------------
+  10001 | Georgi Facello    | M      | 1986-06-26
+  10002 | Bezalel Simmel    | F      | 1985-11-21
+  10003 | Parto Bamford     | M      | 1986-08-28
+  10004 | Chirstian Koblick | M      | 1986-12-01
+  10005 | Kyoichi Maliniak  | M      | 1989-09-12
+(5 rows)
+

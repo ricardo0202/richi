@@ -1,0 +1,3 @@
+tabla	COUNT(*)
+employees	300024
+departments	9

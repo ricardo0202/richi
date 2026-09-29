@@ -1,0 +1,11 @@
+LOAD DATABASE
+     FROM mysql://ricardo:123123@mariadb:3306/employees
+     INTO postgresql://ricardo:123123@postgresql:5432/pdb_employees
+
+ WITH include drop, create tables, create indexes, reset sequences,
+      workers = 8, concurrency = 1,
+      single transaction
+
+  SET PostgreSQL PARAMETERS
+      maintenance_work_mem to '128MB',
+      work_mem to '12MB';
